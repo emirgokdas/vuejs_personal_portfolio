@@ -1,13 +1,21 @@
 <template>
-<navbar></navbar>
+  <div>
+    <navbar></navbar>
+    <collapse></collapse>
+
+  </div>
+
 </template>
 
 <script>
   import Navbar from '../Inc/Navbar';
-export default {
+  import Collapse from '../Inc/Collapse';
+
+  export default {
   name: 'HelloWorld',
   components:{
-    Navbar
+    Navbar,
+    Collapse
   },
   data () {
     return {
